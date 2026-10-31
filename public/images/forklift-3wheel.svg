@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bg3w" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ecebe3"/>
+      <stop offset="1" stop-color="#dadcd3"/>
+    </linearGradient>
+    <linearGradient id="org3w" x1="280" y1="200" x2="520" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ee7f43"/>
+      <stop offset="1" stop-color="#c64d26"/>
+    </linearGradient>
+    <filter id="sh3w" x="120" y="440" width="560" height="90" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3w)"/>
+  <!-- Floor line & shadow -->
+  <line x1="60" y1="460" x2="740" y2="460" stroke="#bcc2b7" stroke-width="2"/>
+  <ellipse cx="400" cy="480" rx="240" ry="22" fill="#1b2823" opacity=".25" filter="url(#sh3w)"/>
+  
+  <!-- Mast & Carriage (Compact 3-Wheel Profile) -->
+  <rect x="520" y="100" width="22" height="360" fill="#24302a" rx="2"/>
+  <rect x="550" y="100" width="18" height="360" fill="#323f38" rx="2"/>
+  <rect x="515" y="90" width="58" height="16" fill="#1c2521" rx="2"/>
+  <rect x="515" y="440" width="62" height="18" fill="#1c2521"/>
+  <!-- Forks & backrest -->
+  <path d="M525 280h48v90h-48z" fill="#3c4a43"/>
+  <path d="M570 360h140v12H570z" fill="#202924"/>
+  <path d="M570 372v-12h14v80h-14z" fill="#18201c"/>
+  
+  <!-- 3-Wheel Body & Cabin -->
+  <!-- Overhead guard -->
+  <path d="M300 180h160l40 120H280l20-120Z" fill="none" stroke="#24302a" stroke-width="12" stroke-linejoin="round"/>
+  <line x1="340" y1="180" x2="340" y2="300" stroke="#24302a" stroke-width="8"/>
+  <line x1="420" y1="180" x2="420" y2="300" stroke="#24302a" stroke-width="8"/>
+  <path d="M290 174h180v10H290z" fill="#c64d26"/>
+  
+  <!-- Main Chassis (Terracotta Orange) -->
+  <path d="M230 310h220l50 70v70H220l10-140Z" fill="url(#org3w)"/>
+  <path d="M230 310l60-40h90l40 40H230z" fill="#d95d31"/>
+  <!-- Counterweight -->
+  <path d="M190 350c0-20 15-40 40-40h30v140h-50c-12 0-20-8-20-20v-80Z" fill="#183d34"/>
+  <rect x="200" y="360" width="45" height="60" rx="6" fill="#112b25"/>
+  <circle cx="215" cy="380" r="4" fill="#ee7f43"/>
+  
+  <!-- Operator Seat & Controls -->
+  <path d="M330 260h45v35h-45z" fill="#1b2420" rx="3"/>
+  <path d="M330 295h55v15h-55z" fill="#151d19" rx="2"/>
+  <line x1="420" y1="270" x2="435" y2="295" stroke="#1b2420" stroke-width="5"/>
+  <circle cx="418" cy="268" r="8" fill="#323f38"/>
+
+  <!-- Wheels (Front Drive + Compact Rear Steer) -->
+  <!-- Front Wheel -->
+  <circle cx="480" cy="455" r="46" fill="#151b18"/>
+  <circle cx="480" cy="455" r="30" fill="#69756d"/>
+  <circle cx="480" cy="455" r="14" fill="#dadcd3"/>
+  <!-- Compact Center Rear Pivot Wheel (3-Wheel Characteristic) -->
+  <circle cx="250" cy="462" r="38" fill="#151b18"/>
+  <circle cx="250" cy="462" r="24" fill="#69756d"/>
+  <circle cx="250" cy="462" r="10" fill="#dadcd3"/>
+
+  <!-- Badge / Label -->
+  <rect x="280" y="350" width="120" height="26" fill="#183d34" rx="3"/>
+  <text x="290" y="367" fill="#ffffff" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">1.5T ELECTRIC</text>
+</svg>

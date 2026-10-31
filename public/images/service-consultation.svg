@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="consult-bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#edf0e8"/>
+      <stop offset="1" stop-color="#dadcd3"/>
+    </linearGradient>
+    <pattern id="consult-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0v30" stroke="#bcc2b7" stroke-width="1" stroke-opacity=".45"/>
+    </pattern>
+  </defs>
+
+  <!-- Technical drawing background -->
+  <rect width="800" height="600" fill="url(#consult-bg)"/>
+  <rect width="800" height="600" fill="url(#consult-grid)"/>
+
+  <!-- Border Frame -->
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#bac0b3" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <!-- Blueprint Title Block -->
+  <rect x="520" y="470" width="230" height="80" fill="#ffffff" stroke="#142d27" stroke-width="2"/>
+  <rect x="520" y="470" width="230" height="24" fill="#142d27"/>
+  <text x="532" y="486" fill="#f4f3ec" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" letter-spacing="1">FACILITY SIZING AUDIT</text>
+  <text x="532" y="512" fill="#141f1c" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">Aisle Clearance &amp; Turning</text>
+  <text x="532" y="534" fill="#5d6c65" font-family="-apple-system, sans-serif" font-size="10">Scale: 1:50 · On-Site Verification</text>
+
+  <!-- Pallet Racking Aisle Layout (Top-Down Engineering View) -->
+  <!-- Rack A (Top) -->
+  <rect x="80" y="90" width="380" height="60" fill="#24302a" stroke="#141f1c" stroke-width="2"/>
+  <!-- Pallet bays in Rack A -->
+  <rect x="90" y="96" width="50" height="48" fill="#d47942" rx="2"/>
+  <rect x="150" y="96" width="50" height="48" fill="#c64d26" rx="2"/>
+  <rect x="210" y="96" width="50" height="48" fill="#a48c66" rx="2"/>
+  <rect x="270" y="96" width="50" height="48" fill="#c64d26" rx="2"/>
+  <rect x="330" y="96" width="50" height="48" fill="#d47942" rx="2"/>
+  <rect x="390" y="96" width="50" height="48" fill="#a48c66" rx="2"/>
+
+  <!-- Rack B (Bottom) -->
+  <rect x="80" y="340" width="380" height="60" fill="#24302a" stroke="#141f1c" stroke-width="2"/>
+  <!-- Pallet bays in Rack B -->
+  <rect x="90" y="346" width="50" height="48" fill="#a48c66" rx="2"/>
+  <rect x="150" y="346" width="50" height="48" fill="#d47942" rx="2"/>
+  <rect x="210" y="346" width="50" height="48" fill="#c64d26" rx="2"/>
+  <rect x="270" y="346" width="50" height="48" fill="#a48c66" rx="2"/>
+  <rect x="330" y="346" width="50" height="48" fill="#c64d26" rx="2"/>
+  <rect x="390" y="346" width="50" height="48" fill="#d47942" rx="2"/>
+
+  <!-- Aisle Width Dimension line -->
+  <line x1="60" y1="150" x2="60" y2="340" stroke="#c8522c" stroke-width="2.5"/>
+  <polygon points="56,155 60,150 64,155" fill="#c8522c"/>
+  <polygon points="56,335 60,340 64,335" fill="#c8522c"/>
+  <rect x="42" y="232" width="90" height="24" fill="#ffffff" stroke="#c8522c" stroke-width="1.5" rx="3"/>
+  <text x="50" y="248" fill="#c8522c" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">2,850 mm</text>
+
+  <!-- Forklift Top-Down Footprint in Aisle -->
+  <g transform="translate(240, 210)">
+    <!-- Chassis -->
+    <rect x="0" y="0" width="110" height="70" rx="8" fill="#c8522c" stroke="#141f1c" stroke-width="2"/>
+    <rect x="70" y="10" width="30" height="50" rx="4" fill="#142d27"/>
+    <!-- Wheels -->
+    <rect x="80" y="-8" width="22" height="10" rx="2" fill="#141f1c"/>
+    <rect x="80" y="68" width="22" height="10" rx="2" fill="#141f1c"/>
+    <rect x="10" y="28" width="20" height="14" rx="2" fill="#141f1c"/>
+    <!-- Forks (extending left into bay) -->
+    <rect x="110" y="18" width="45" height="6" fill="#3c4a43"/>
+    <rect x="110" y="46" width="45" height="6" fill="#3c4a43"/>
+  </g>
+
+  <!-- Turning Radius Arc (Dotted Indicator) -->
+  <path d="M260 245 A 110 110 0 0 1 370 135" fill="none" stroke="#c8522c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <polygon points="364,131 372,134 366,140" fill="#c8522c"/>
+  <rect x="330" y="170" width="130" height="24" fill="#ffffff" stroke="#142d27" stroke-width="1.5" rx="3"/>
+  <text x="338" y="186" fill="#142d27" font-family="-apple-system, sans-serif" font-size="10" font-weight="700">TURNING RADIUS: 1,480 mm</text>
+
+  <!-- Verification Badges -->
+  <g transform="translate(520, 90)">
+    <rect width="210" height="140" rx="6" fill="#ffffff" stroke="#bac0b3" stroke-width="1.5"/>
+    <text x="16" y="28" fill="#142d27" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">ONSITE AUDIT SCOPE</text>
+    <line x1="16" y1="38" x2="194" y2="38" stroke="#eeede5" stroke-width="1.5"/>
+    <text x="16" y="60" fill="#2c3a35" font-family="-apple-system, sans-serif" font-size="11">✓ Aisle clearance check</text>
+    <text x="16" y="82" fill="#2c3a35" font-family="-apple-system, sans-serif" font-size="11">✓ Mast collapsed height</text>
+    <text x="16" y="104" fill="#2c3a35" font-family="-apple-system, sans-serif" font-size="11">✓ Floor gradient &amp; ramp test</text>
+    <text x="16" y="126" fill="#2c3a35" font-family="-apple-system, sans-serif" font-size="11">✓ Charger station placement</text>
+  </g>
+</svg>

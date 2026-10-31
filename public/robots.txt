@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with the production domain when published
+Sitemap: https://example.com/sitemap.xml

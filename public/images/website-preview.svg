@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1740" role="img" aria-labelledby="title desc">
+  <title id="title">Forklift business website preview</title>
+  <desc id="desc">A long desktop page preview showing the warm cream and forest green forklift landing page with its original forklift illustration, product enquiry, services, about, FAQs and contact form.</desc>
+  <defs>
+    <clipPath id="heroClip"><rect x="700" y="159" width="680" height="495"/></clipPath>
+    <clipPath id="cardClip"><rect x="126" y="831" width="566" height="228"/></clipPath>
+    <clipPath id="aboutClip"><rect x="0" y="1180" width="720" height="380"/></clipPath>
+  </defs>
+  <rect width="1440" height="1740" fill="#f3f2ed"/>
+  <rect width="1440" height="32" fill="#183d34"/>
+  <circle cx="74" cy="16" r="3" fill="#e17c4e"/>
+  <text x="88" y="20" fill="#eff4ee" font-family="Arial,sans-serif" font-size="10" letter-spacing="1.3">EQUIPMENT ENQUIRIES WELCOME  /  SERVING [CITY / REGION]</text>
+  <rect y="32" width="1440" height="74" fill="#f3f2ed"/>
+  <rect x="72" y="50" width="38" height="38" rx="19" fill="#b94320"/>
+  <path d="M83 58h5v17h14v5H83zM100 63h5v12h-5zM107 61h4v20h-4z" fill="#fffefa"/>
+  <text x="122" y="75" fill="#182321" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing=".7">[BUSINESS NAME]</text>
+  <g fill="#47524d" font-family="Arial,sans-serif" font-size="12">
+    <text x="780" y="76">Forklifts</text><text x="870" y="76">Services</text><text x="955" y="76">About</text><text x="1025" y="76">FAQs</text>
+  </g>
+  <rect x="1140" y="51" width="228" height="40" fill="#182321"/>
+  <text x="1160" y="76" fill="#fffefa" font-family="Arial,sans-serif" font-size="11">Request a quote</text>
+  <text x="1337" y="76" fill="#f0895f" font-family="Arial,sans-serif" font-size="15">↗</text>
+  <path d="M0 106h1440" stroke="#d8d9d2"/>
+  <text x="100" y="179" fill="#b94320" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">01</text>
+  <text x="127" y="179" fill="#626e67" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.6">MATERIAL HANDLING EQUIPMENT · [CITY / REGION]</text>
+  <text x="100" y="273" fill="#182321" font-family="Arial,sans-serif" font-size="73" font-weight="700" letter-spacing="-4">The right lift</text>
+  <text x="100" y="350" fill="#182321" font-family="Arial,sans-serif" font-size="73" font-weight="700" letter-spacing="-4">for the work <tspan fill="#b94320">ahead.</tspan></text>
+  <text x="103" y="400" fill="#65706b" font-family="Arial,sans-serif" font-size="14">[Add a short description of the forklifts and</text>
+  <text x="103" y="423" fill="#65706b" font-family="Arial,sans-serif" font-size="14">confirmed services offered by the business.]</text>
+  <rect x="100" y="459" width="172" height="47" fill="#b94320"/>
+  <text x="117" y="488" fill="#fffefa" font-family="Arial,sans-serif" font-size="11" font-weight="700">Explore forklifts</text><text x="248" y="489" fill="#fffefa" font-family="Arial,sans-serif" font-size="16">→</text>
+  <rect x="284" y="459" width="150" height="47" fill="#f3f2ed" stroke="#d8d9d2"/>
+  <text x="301" y="488" fill="#182321" font-family="Arial,sans-serif" font-size="11" font-weight="700">Get in touch</text><text x="407" y="488" fill="#182321" font-family="Arial,sans-serif" font-size="15">↗</text>
+  <path d="M101 574h34" stroke="#b94320"/><text x="146" y="578" fill="#737d78" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.3">EQUIPMENT FOR THE WAY YOU WORK.</text>
+  <g clip-path="url(#heroClip)"><image href="forklift-hero.svg" x="700" y="159" width="680" height="510" preserveAspectRatio="xMidYMid slice"/></g>
+  <circle cx="1326" cy="204" r="36" fill="#b94320"/><text x="1307" y="202" fill="#fffefa" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing=".8">LOAD</text><text x="1305" y="216" fill="#fffefa" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing=".8">READY ↗</text>
+  <rect y="690" width="1440" height="83" fill="#e7e8e0"/>
+  <text x="104" y="738" fill="#78807b" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.3">YOUR LOCAL EQUIPMENT CONTACT</text>
+  <path d="M334 718v26" stroke="#c4c8c0"/><text x="366" y="738" fill="#182321" font-family="Arial,sans-serif" font-size="13" font-weight="700">[CITY / REGION AND SURROUNDING AREAS]</text>
+  <text x="1018" y="738" fill="#59645e" font-family="Arial,sans-serif" font-size="11">Talk through your requirements ↗</text>
+  <text x="126" y="826" fill="#b94320" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">02</text>
+  <text x="154" y="826" fill="#626e67" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">THE LINEUP</text>
+  <text x="126" y="888" fill="#182321" font-family="Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-2">Find your <tspan fill="#b94320">forklift.</tspan></text>
+  <text x="847" y="870" fill="#65706b" font-family="Arial,sans-serif" font-size="12">Browse the current range, or tell us what your</text><text x="847" y="890" fill="#65706b" font-family="Arial,sans-serif" font-size="12">operation needs and we’ll help you find the right fit.</text>
+  <rect x="126" y="923" width="1188" height="238" fill="#e5e6de"/>
+  <g clip-path="url(#cardClip)"><image href="forklift-hero.svg" x="126" y="831" width="566" height="378" preserveAspectRatio="xMidYMid slice"/></g>
+  <text x="770" y="967" fill="#b94320" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.3">INVENTORY / 00</text>
+  <text x="770" y="1014" fill="#182321" font-family="Arial,sans-serif" font-size="31" font-weight="700" letter-spacing="-1">Good work starts</text><text x="770" y="1047" fill="#182321" font-family="Arial,sans-serif" font-size="31" font-weight="700" letter-spacing="-1">with a conversation.</text>
+  <text x="770" y="1082" fill="#65706b" font-family="Arial,sans-serif" font-size="12">Ask about available forklifts, models and specifications.</text>
+  <rect x="770" y="1100" width="210" height="42" fill="#b94320"/><text x="786" y="1126" fill="#fffefa" font-family="Arial,sans-serif" font-size="10" font-weight="700">Ask about availability  →</text>
+  <rect y="1180" width="1440" height="380" fill="#e7e8e0"/>
+  <g clip-path="url(#aboutClip)"><image href="forklift-hero.svg" x="0" y="1125" width="720" height="480" preserveAspectRatio="xMidYMid slice"/></g>
+  <text x="800" y="1242" fill="#b94320" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">04　 A LOCAL PARTNER</text>
+  <text x="800" y="1310" fill="#182321" font-family="Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="-2">Work moves</text><text x="800" y="1364" fill="#182321" font-family="Arial,sans-serif" font-size="52" font-weight="700" letter-spacing="-2">better <tspan fill="#b94320">together.</tspan></text>
+  <text x="800" y="1407" fill="#65706b" font-family="Arial,sans-serif" font-size="12">[Add a short, owner-approved introduction to</text><text x="800" y="1427" fill="#65706b" font-family="Arial,sans-serif" font-size="12">the business, its team, and the customers it serves.]</text>
+  <text x="800" y="1475" fill="#828982" font-family="Arial,sans-serif" font-size="9" font-weight="700" letter-spacing="1.3">BASED IN</text><text x="800" y="1496" fill="#182321" font-family="Arial,sans-serif" font-size="13" font-weight="700">[CITY / REGION]</text>
+  <rect x="0" y="1560" width="1440" height="180" fill="#183d34"/>
+  <text x="100" y="1613" fill="#d2ded6" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.4">06　 LET’S GET MOVING</text>
+  <text x="100" y="1674" fill="#fffefa" font-family="Arial,sans-serif" font-size="48" font-weight="700" letter-spacing="-2">Make room for <tspan fill="#e28a5f">what’s next.</tspan></text>
+  <rect x="904" y="1590" width="436" height="118" fill="#fffefa"/>
+  <text x="930" y="1622" fill="#182321" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">ENQUIRY FORM</text>
+  <path d="M930 1634h383" stroke="#d8d9d2"/>
+  <text x="930" y="1655" fill="#65706b" font-family="Arial,sans-serif" font-size="9">Your name</text><path d="M930 1662h182" stroke="#d8d9d2"/>
+  <text x="1122" y="1655" fill="#65706b" font-family="Arial,sans-serif" font-size="9">Phone number</text><path d="M1122 1662h191" stroke="#d8d9d2"/>
+  <rect x="930" y="1675" width="383" height="24" fill="#b94320"/><text x="943" y="1692" fill="#fffefa" font-family="Arial,sans-serif" font-size="9" font-weight="700">Prepare enquiry  ↗</text>
+</svg>

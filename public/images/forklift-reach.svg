@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bgrt" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ebebe3"/>
+      <stop offset="1" stop-color="#d6dad0"/>
+    </linearGradient>
+    <linearGradient id="orgrt" x1="260" y1="200" x2="480" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ee7f43"/>
+      <stop offset="1" stop-color="#ba4722"/>
+    </linearGradient>
+    <filter id="shrt" x="140" y="455" width="540" height="85" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bgrt)"/>
+  <!-- Floor line & shadow -->
+  <line x1="80" y1="475" x2="720" y2="475" stroke="#b6bdb1" stroke-width="2"/>
+  <ellipse cx="410" cy="492" rx="230" ry="20" fill="#1b2823" opacity=".24" filter="url(#shrt)"/>
+  
+  <!-- High Reach Mast (Tall Vertical Profile) -->
+  <rect x="470" y="40" width="24" height="425" fill="#24302a" rx="2"/>
+  <rect x="500" y="40" width="20" height="425" fill="#323f38" rx="2"/>
+  <rect x="465" y="30" width="60" height="15" fill="#1c2521" rx="2"/>
+  <line x1="482" y1="70" x2="482" y2="440" stroke="#ba4722" stroke-width="3"/>
+
+  <!-- Outrigger Straddles (Reach Truck characteristic) -->
+  <rect x="440" y="435" width="220" height="30" fill="#183d34" rx="4"/>
+  <circle cx="640" cy="465" r="14" fill="#18201c"/>
+  <circle cx="640" cy="465" r="8" fill="#a43515"/>
+
+  <!-- Reach Carriage & Elevated Forks -->
+  <rect x="475" y="210" width="55" height="80" fill="#38453e" rx="2"/>
+  <path d="M525 275h135v12H525z" fill="#202924"/>
+  <path d="M525 287v-12h14v70h-14z" fill="#18201c"/>
+  
+  <!-- Reach Truck Chassis & Operator Compartment (Stand/Sit Lateral Stance) -->
+  <path d="M250 200h150v245H230l20-245Z" fill="url(#orgrt)"/>
+  <!-- Overhead High-Bay Guard -->
+  <rect x="240" y="90" width="165" height="12" fill="#ba4722" rx="2"/>
+  <line x1="255" y1="102" x2="255" y2="200" stroke="#24302a" stroke-width="12"/>
+  <line x1="385" y1="102" x2="385" y2="200" stroke="#24302a" stroke-width="12"/>
+  
+  <!-- Battery Compartment & Drive Unit -->
+  <rect x="220" y="270" width="90" height="175" fill="#183d34" rx="4"/>
+  <rect x="235" y="290" width="60" height="85" fill="#102923" rx="3"/>
+  <circle cx="265" cy="315" r="4" fill="#ee7f43"/>
+  <circle cx="265" cy="335" r="4" fill="#ee7f43"/>
+  
+  <!-- Drive Wheel (Heavy Polyurethane Center/Rear) -->
+  <circle cx="280" cy="465" r="40" fill="#151b18"/>
+  <circle cx="280" cy="465" r="26" fill="#ba4722"/>
+  <circle cx="280" cy="465" r="12" fill="#dadcd3"/>
+
+  <!-- Model badge -->
+  <rect x="290" y="385" width="120" height="24" fill="#142d27" rx="3"/>
+  <text x="300" y="401" fill="#ffffff" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">1.6T REACH</text>
+</svg>

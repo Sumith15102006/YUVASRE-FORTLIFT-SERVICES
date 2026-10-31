@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="bghv" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ecebe1"/>
+      <stop offset="1" stop-color="#d4d7cc"/>
+    </linearGradient>
+    <linearGradient id="orghv" x1="220" y1="160" x2="570" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d95d31"/>
+      <stop offset="1" stop-color="#a43515"/>
+    </linearGradient>
+    <filter id="shhv" x="70" y="445" width="660" height="100" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="16"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" fill="url(#bghv)"/>
+  <!-- Floor line & shadow -->
+  <line x1="40" y1="470" x2="760" y2="470" stroke="#b2b9ad" stroke-width="2"/>
+  <ellipse cx="400" cy="490" rx="300" ry="26" fill="#1b2823" opacity=".28" filter="url(#shhv)"/>
+  
+  <!-- Reinforced Heavy Mast & Cylinders -->
+  <rect x="550" y="60" width="32" height="410" fill="#1e2823" rx="2"/>
+  <rect x="590" y="60" width="28" height="410" fill="#2d3932" rx="2"/>
+  <rect x="540" y="50" width="85" height="20" fill="#151d19" rx="2"/>
+  <rect x="540" y="450" width="90" height="22" fill="#151d19"/>
+  <!-- Hydraulic Tilt Cylinders -->
+  <line x1="490" y1="360" x2="560" y2="340" stroke="#a43515" stroke-width="8" stroke-linecap="round"/>
+  <line x1="500" y1="365" x2="550" y2="350" stroke="#d95d31" stroke-width="4"/>
+  
+  <!-- Heavy Carriage & Forks -->
+  <rect x="555" y="260" width="75" height="110" fill="#323e38" rx="2"/>
+  <path d="M625 350h145v18H625z" fill="#1b231f"/>
+  <path d="M625 368v-18h18v95h-18z" fill="#131916"/>
+  
+  <!-- Reinforced Cabin & Guard -->
+  <path d="M260 145h200l55 155H235l25-155Z" fill="none" stroke="#1e2823" stroke-width="16" stroke-linejoin="round"/>
+  <line x1="315" y1="145" x2="315" y2="300" stroke="#1e2823" stroke-width="12"/>
+  <line x1="415" y1="145" x2="415" y2="300" stroke="#1e2823" stroke-width="12"/>
+  <path d="M245 137h230v14H245z" fill="#a43515"/>
+  
+  <!-- Heavy Industrial Body / Counterweight -->
+  <path d="M170 300h300l65 70v95H160l10-165Z" fill="url(#orghv)"/>
+  <!-- Heavy Cast-Iron Counterweight -->
+  <path d="M110 330c0-30 22-55 55-55h45v190H140c-20 0-30-15-30-35v-100Z" fill="#142e26"/>
+  <rect x="125" y="350" width="65" height="85" rx="6" fill="#0d211b"/>
+  <circle cx="150" cy="380" r="6" fill="#ee7f43"/>
+  <rect x="125" y="445" width="65" height="10" fill="#2d3932" rx="2"/>
+  
+  <!-- Large Heavy-Duty Wheels -->
+  <!-- Front Dual-Style Solid Wheels -->
+  <circle cx="510" cy="465" r="56" fill="#131815"/>
+  <circle cx="510" cy="465" r="38" fill="#5a665e"/>
+  <circle cx="510" cy="465" r="18" fill="#dadcd3"/>
+  <!-- Large Rear Steer Wheel -->
+  <circle cx="210" cy="465" r="48" fill="#131815"/>
+  <circle cx="210" cy="465" r="32" fill="#5a665e"/>
+  <circle cx="210" cy="465" r="15" fill="#dadcd3"/>
+
+  <!-- Model badge -->
+  <rect x="250" y="340" width="145" height="30" fill="#142e26" rx="4"/>
+  <text x="262" y="359" fill="#ffffff" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">3.0T HEAVY DUTY</text>
+</svg>

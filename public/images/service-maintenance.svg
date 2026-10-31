@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" fill="none">
+  <defs>
+    <linearGradient id="maint-bg" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ecebe3"/>
+      <stop offset="1" stop-color="#d6d9ce"/>
+    </linearGradient>
+    <pattern id="maint-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0v30" stroke="#bcc2b7" stroke-width="1" stroke-opacity=".4"/>
+    </pattern>
+  </defs>
+
+  <!-- Technical background -->
+  <rect width="800" height="600" fill="url(#maint-bg)"/>
+  <rect width="800" height="600" fill="url(#maint-grid)"/>
+
+  <!-- Border Frame -->
+  <rect x="24" y="24" width="752" height="552" fill="none" stroke="#bac0b3" stroke-width="1.5" stroke-dasharray="6 4"/>
+
+  <!-- Diagnostic Title Block -->
+  <rect x="68" y="60" width="260" height="40" rx="4" fill="#142d27"/>
+  <text x="82" y="85" fill="#f4f3ec" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1.5">PREVENTATIVE MAINTENANCE</text>
+
+  <!-- Hydraulic & Mast Inspection Graphic -->
+  <!-- Mast Assembly Schematic -->
+  <g transform="translate(120, 140)">
+    <!-- Upright beams -->
+    <rect x="60" y="0" width="22" height="340" fill="#24302a" rx="2"/>
+    <rect x="180" y="0" width="22" height="340" fill="#24302a" rx="2"/>
+    <rect x="50" y="0" width="162" height="18" fill="#141f1c" rx="2"/>
+    <rect x="50" y="150" width="162" height="14" fill="#323f38"/>
+    <rect x="50" y="320" width="162" height="20" fill="#141f1c"/>
+
+    <!-- Hydraulic Center Cylinder -->
+    <rect x="120" y="30" width="22" height="290" fill="#c8522c" rx="3"/>
+    <rect x="125" y="10" width="12" height="50" fill="#bac0b3" rx="2"/>
+
+    <!-- Lift Chains -->
+    <line x1="95" y1="20" x2="95" y2="280" stroke="#7b8a83" stroke-width="5" stroke-dasharray="4 2"/>
+    <line x1="165" y1="20" x2="165" y2="280" stroke="#7b8a83" stroke-width="5" stroke-dasharray="4 2"/>
+
+    <!-- Diagnostic Callout: Hydraulic Line -->
+    <circle cx="131" cy="180" r="14" fill="#ffffff" stroke="#c8522c" stroke-width="3"/>
+    <text x="126" y="185" fill="#c8522c" font-family="-apple-system, sans-serif" font-size="13" font-weight="800">1</text>
+    <line x1="145" y1="180" x2="230" y2="180" stroke="#c8522c" stroke-width="2"/>
+    <rect x="230" y="165" width="180" height="30" rx="3" fill="#ffffff" stroke="#c8522c" stroke-width="1.5"/>
+    <text x="240" y="184" fill="#141f1c" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">Hydraulic Line Pressure: PASS</text>
+
+    <!-- Diagnostic Callout: Chain Tension -->
+    <circle cx="95" cy="100" r="14" fill="#ffffff" stroke="#142d27" stroke-width="3"/>
+    <text x="90" y="105" fill="#142d27" font-family="-apple-system, sans-serif" font-size="13" font-weight="800">2</text>
+    <line x1="109" y1="100" x2="230" y2="100" stroke="#142d27" stroke-width="2"/>
+    <rect x="230" y="85" width="180" height="30" rx="3" fill="#ffffff" stroke="#142d27" stroke-width="1.5"/>
+    <text x="240" y="104" fill="#141f1c" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">Mast Chain Tension: VERIFIED</text>
+  </g>
+
+  <!-- Right Inspection Checklist Card -->
+  <g transform="translate(480, 120)">
+    <rect width="250" height="380" rx="8" fill="#ffffff" stroke="#bac0b3" stroke-width="1.5"/>
+    <!-- Card header -->
+    <rect width="250" height="48" rx="8" fill="#142d27"/>
+    <text x="20" y="30" fill="#f4f3ec" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" letter-spacing="1">SERVICING CHECKLIST</text>
+
+    <!-- Checklist rows -->
+    <g transform="translate(20, 70)">
+      <circle cx="10" cy="10" r="9" fill="#e8f2ec" stroke="#142d27" stroke-width="2"/>
+      <text x="7" y="14" fill="#142d27" font-size="10" font-weight="700">✓</text>
+      <text x="28" y="14" fill="#141f1c" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Battery Cell Equalization</text>
+      <text x="28" y="28" fill="#5d6c65" font-family="-apple-system, sans-serif" font-size="10">Specific gravity &amp; terminal cleaning</text>
+    </g>
+
+    <g transform="translate(20, 130)">
+      <circle cx="10" cy="10" r="9" fill="#e8f2ec" stroke="#142d27" stroke-width="2"/>
+      <text x="7" y="14" fill="#142d27" font-size="10" font-weight="700">✓</text>
+      <text x="28" y="14" fill="#141f1c" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Braking &amp; Emergency Stop</text>
+      <text x="28" y="28" fill="#5d6c65" font-family="-apple-system, sans-serif" font-size="10">Enclosed disc brake check &amp; deadman</text>
+    </g>
+
+    <g transform="translate(20, 190)">
+      <circle cx="10" cy="10" r="9" fill="#e8f2ec" stroke="#142d27" stroke-width="2"/>
+      <text x="7" y="14" fill="#142d27" font-size="10" font-weight="700">✓</text>
+      <text x="28" y="14" fill="#141f1c" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Hydraulic Pressure &amp; Hoses</text>
+      <text x="28" y="28" fill="#5d6c65" font-family="-apple-system, sans-serif" font-size="10">Cylinder seals &amp; proportional valves</text>
+    </g>
+
+    <g transform="translate(20, 250)">
+      <circle cx="10" cy="10" r="9" fill="#e8f2ec" stroke="#142d27" stroke-width="2"/>
+      <text x="7" y="14" fill="#142d27" font-size="10" font-weight="700">✓</text>
+      <text x="28" y="14" fill="#141f1c" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Steering &amp; Wheel Bearings</text>
+      <text x="28" y="28" fill="#5d6c65" font-family="-apple-system, sans-serif" font-size="10">Rear pivot bearing &amp; tyre wear check</text>
+    </g>
+
+    <g transform="translate(20, 310)">
+      <rect width="210" height="42" rx="4" fill="#fbeee8" stroke="#c8522c" stroke-width="1"/>
+      <text x="14" y="26" fill="#c8522c" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">SCHEDULED LOGBOOK PROVIDED</text>
+    </g>
+  </g>
+</svg>
